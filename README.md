@@ -2,8 +2,12 @@
 
 The code in this repository was ctreated for one of assignments from SQL class, in 2011 under windows 7 with JCreater.
 
-User Documentation
+User Documentation:
+
 This is a database application for storing a list of game characters with their information. The information include the identity of the character, party information, weapon information, skill information, race information, and the house information. Since there are bunch of information, the application can generate a lot of output such that party member list, rating between parties, what kinds of weapons are widely used, what races are widely chosen, what skills have the most potent, and the density of population depends on density of houses.
+
 There are two views. One give subset of character and race relation which renders a table of character's name, character's level, and character's race. This view has a query which shows character's name and race. This view can be used in situation where two players are different side. For example, the "Alliance" and the "Horde" in World of Warcraft. The other view is a subset of party and character. This view provides a query which retrieve character's name, party name, and party rate with the rate of party is less than five. It is useful when tracking what parties are considered as small or new parties.
+
 There are three scripts. GameCharacter is the one for generating all relation tables. The tables include: Races, stores race name, trait, trait introduction, race introduction; Weapons, stores name, type, introduction, attack speed and range; Houses, stores identity, location, type and is locked or not; Parties, stores identity, name, number of member, and rate; Skills, stores name, range, introduction, cool down, and level; Learns, stores relation between characters and skills with price of the skill which varying depends on character. PartyMembers, stores relation between character and party with position of the character in the party; And Characters, stores identity, name, level, and gender. View is the one for rendering useful subset described above. Index is the one which compares the execution time between using index and not using index.
+
 Most of constraints are based on check. Character's gender only can be female(F) or male(M), and character's level must greater than one. An exist party must have one member and the lowest rate is also one; if there is a person who enrolled in a party, the party must be exist. Speed and range of a weapon cannot lower than one. The skill range can only be value between one and twenty, and the skill level must more than one; if there is a person who learned a skill, the skill must be exist.
