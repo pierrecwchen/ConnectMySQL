@@ -1,0 +1,128 @@
+--------------
+select now()
+--------------
+
++---------------------+
+| now()               |
++---------------------+
+| 2011-12-02 01:45:18 |
++---------------------+
+--------------
+select * from weapons where weaponType = 'weaponType1'
+--------------
+
++----------------+-------------+-------------+-------------+---------------+
+| weaponName     | weaponType  | attackSpeed | attackRange | introductionW |
++----------------+-------------+-------------+-------------+---------------+
+| weaponName1    | weaponType1 |           2 |           3 | weaponInfo1   |
+| weaponName8    | weaponType1 |           2 |           3 | weaponInfo11  |
+| weaponName15   | weaponType1 |           2 |           3 | weaponInfo12  |
+| weaponName22   | weaponType1 |           2 |           3 | weaponInfo13  |
+| weaponName29   | weaponType1 |           2 |           3 | weaponInfo14  |
+| weaponName36   | weaponType1 |           2 |           3 | weaponInfo15  |
+| weaponName43   | weaponType1 |           2 |           3 | weaponInfo16  |
+| weaponName50   | weaponType1 |           2 |           3 | weaponInfo17  |
+| weaponName57   | weaponType1 |           2 |           3 | weaponInfo18  |
+| weaponName101  | weaponType1 |           2 |           3 | weaponInfo1   |
+| weaponName801  | weaponType1 |           2 |           3 | weaponInfo11  |
+| weaponName152  | weaponType1 |           2 |           3 | weaponInfo12  |
+| weaponName222  | weaponType1 |           2 |           3 | weaponInfo13  |
+| weaponName292  | weaponType1 |           2 |           3 | weaponInfo14  |
+| weaponName362  | weaponType1 |           2 |           3 | weaponInfo15  |
+| weaponName432  | weaponType1 |           2 |           3 | weaponInfo16  |
+| weaponName502  | weaponType1 |           2 |           3 | weaponInfo17  |
+| weaponName572  | weaponType1 |           2 |           3 | weaponInfo18  |
+| weaponName771  | weaponType1 |           2 |           3 | weaponInfo1   |
+| weaponName778  | weaponType1 |           2 |           3 | weaponInfo11  |
+| weaponName715  | weaponType1 |           2 |           3 | weaponInfo12  |
+| weaponName722  | weaponType1 |           2 |           3 | weaponInfo13  |
+| weaponName729  | weaponType1 |           2 |           3 | weaponInfo14  |
+| weaponName736  | weaponType1 |           2 |           3 | weaponInfo15  |
+| weaponName743  | weaponType1 |           2 |           3 | weaponInfo16  |
+| weaponName750  | weaponType1 |           2 |           3 | weaponInfo17  |
+| weaponName757  | weaponType1 |           2 |           3 | weaponInfo18  |
+| weaponName1101 | weaponType1 |           2 |           3 | weaponInfo1   |
+| weaponName1801 | weaponType1 |           2 |           3 | weaponInfo11  |
+| weaponName1152 | weaponType1 |           2 |           3 | weaponInfo12  |
+| weaponName2122 | weaponType1 |           2 |           3 | weaponInfo13  |
+| weaponName2192 | weaponType1 |           2 |           3 | weaponInfo14  |
+| weaponName3162 | weaponType1 |           2 |           3 | weaponInfo15  |
+| weaponName4132 | weaponType1 |           2 |           3 | weaponInfo16  |
+| weaponName5102 | weaponType1 |           2 |           3 | weaponInfo17  |
+| weaponName5172 | weaponType1 |           2 |           3 | weaponInfo18  |
++----------------+-------------+-------------+-------------+---------------+
+--------------
+select now()
+--------------
+
++---------------------+
+| now()               |
++---------------------+
+| 2011-12-02 01:45:18 |
++---------------------+
+--------------
+create index weapon_type on weapons(weaponType)
+--------------
+
+--------------
+select now()
+--------------
+
++---------------------+
+| now()               |
++---------------------+
+| 2011-12-02 01:45:18 |
++---------------------+
+--------------
+select * from weapons where weaponType = 'weaponType1'
+--------------
+
++----------------+-------------+-------------+-------------+---------------+
+| weaponName     | weaponType  | attackSpeed | attackRange | introductionW |
++----------------+-------------+-------------+-------------+---------------+
+| weaponName1    | weaponType1 |           2 |           3 | weaponInfo1   |
+| weaponName8    | weaponType1 |           2 |           3 | weaponInfo11  |
+| weaponName15   | weaponType1 |           2 |           3 | weaponInfo12  |
+| weaponName22   | weaponType1 |           2 |           3 | weaponInfo13  |
+| weaponName29   | weaponType1 |           2 |           3 | weaponInfo14  |
+| weaponName36   | weaponType1 |           2 |           3 | weaponInfo15  |
+| weaponName43   | weaponType1 |           2 |           3 | weaponInfo16  |
+| weaponName50   | weaponType1 |           2 |           3 | weaponInfo17  |
+| weaponName57   | weaponType1 |           2 |           3 | weaponInfo18  |
+| weaponName101  | weaponType1 |           2 |           3 | weaponInfo1   |
+| weaponName801  | weaponType1 |           2 |           3 | weaponInfo11  |
+| weaponName152  | weaponType1 |           2 |           3 | weaponInfo12  |
+| weaponName222  | weaponType1 |           2 |           3 | weaponInfo13  |
+| weaponName292  | weaponType1 |           2 |           3 | weaponInfo14  |
+| weaponName362  | weaponType1 |           2 |           3 | weaponInfo15  |
+| weaponName432  | weaponType1 |           2 |           3 | weaponInfo16  |
+| weaponName502  | weaponType1 |           2 |           3 | weaponInfo17  |
+| weaponName572  | weaponType1 |           2 |           3 | weaponInfo18  |
+| weaponName771  | weaponType1 |           2 |           3 | weaponInfo1   |
+| weaponName778  | weaponType1 |           2 |           3 | weaponInfo11  |
+| weaponName715  | weaponType1 |           2 |           3 | weaponInfo12  |
+| weaponName722  | weaponType1 |           2 |           3 | weaponInfo13  |
+| weaponName729  | weaponType1 |           2 |           3 | weaponInfo14  |
+| weaponName736  | weaponType1 |           2 |           3 | weaponInfo15  |
+| weaponName743  | weaponType1 |           2 |           3 | weaponInfo16  |
+| weaponName750  | weaponType1 |           2 |           3 | weaponInfo17  |
+| weaponName757  | weaponType1 |           2 |           3 | weaponInfo18  |
+| weaponName1101 | weaponType1 |           2 |           3 | weaponInfo1   |
+| weaponName1801 | weaponType1 |           2 |           3 | weaponInfo11  |
+| weaponName1152 | weaponType1 |           2 |           3 | weaponInfo12  |
+| weaponName2122 | weaponType1 |           2 |           3 | weaponInfo13  |
+| weaponName2192 | weaponType1 |           2 |           3 | weaponInfo14  |
+| weaponName3162 | weaponType1 |           2 |           3 | weaponInfo15  |
+| weaponName4132 | weaponType1 |           2 |           3 | weaponInfo16  |
+| weaponName5102 | weaponType1 |           2 |           3 | weaponInfo17  |
+| weaponName5172 | weaponType1 |           2 |           3 | weaponInfo18  |
++----------------+-------------+-------------+-------------+---------------+
+--------------
+select now()
+--------------
+
++---------------------+
+| now()               |
++---------------------+
+| 2011-12-02 01:45:18 |
++---------------------+

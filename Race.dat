@@ -1,0 +1,12 @@
+Draenei	Shadow Resistance	Draenei have a natural resistance to Shadow magic	DraeneiInfo
+Human	Every Man For Himself	Humans can shake off speed altering and trapping effects	HumanInfo
+Dwarf	Frost Resistance	Ironforge dwarves have a natural resistance to Frost magic	DwarfInfo
+NightElf	Nature Resistance	Night elves have a natural resistance to Nature magic	NightElfInfo
+Gnome	Arcane Resistance	Gnomes have a natural resistance to Arcane magic	GnomeInfo
+Worgen	Two Forms	Worgen can switch between human and worgen form at will	WorgenInfo
+BloodElf	Magic Resistance	Blood elves have a natural resistance to magic spells	BloodElfInfo
+Orc	Blood Fury	Orcs can fly into a rage that increases their attack power for a short time	OrcInfo
+Forsaken	Shadow Resistance	The Forsaken have a natural resistance to Shadow magic	ForsakenInfo
+Tauren	Nature Resistance	Tauren have a natural resistance to Nature magic	TaurenInfo
+Goblin	Rocket Barrage	The rocket belt can also launch rockets at an enemy, causing fire damage to the target	GoblinInfo
+Troll	Berserking	Trolls can launch themselves into a frenzy, increasing their attack and casting speed for a short time	TrollInfo

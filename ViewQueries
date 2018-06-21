@@ -1,0 +1,28 @@
+--------------
+select *
+from basicCharacterPartyInfo
+where party_rate < 5
+--------------
+
++----------------+------------+------------+
+| character_name | party_name | party_rate |
++----------------+------------+------------+
+| hashead        | comeon     |          2 |
+| king           | bullet     |          3 |
++----------------+------------+------------+
+--------------
+select character_name, race_name
+from otherCharacter
+--------------
+
++----------------+-----------+
+| character_name | race_name |
++----------------+-----------+
+| queen          | BloodElf  |
+| slowmo         | Draenei   |
+| hack           | Dwarf     |
+| willdead       | Gnome     |
+| king           | Goblin    |
+| hello          | Tauren    |
+| hashead        | Worgen    |
++----------------+-----------+
